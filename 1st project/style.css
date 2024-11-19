@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgreen;
+}
+
+.calculator{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: darkgreen;
+}
+
+.screen{
+    
+    width: 224px;
+    background-color: black;
+    height: 6vh;
+    font-size: 35px;
+    text-align: end;
+    padding: 5px;
+    padding-top: 30px;
+    color: aliceblue;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 4px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 232px;   
+    border: 1px solid darkslategrey;
+    background-color:darkslategrey;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: dimgrey;
+}
+
+button:active{
+    background-color:cadetblue
+}
+
+#equal{
+    background-color: brown;
+}
+
+#equal:hover{
+    background-color: dimgrey;
+}
+
+#equal:active{
+    background-color:dimgray
+}
+
+#clear{
+    margin-top: -10px;
+    border-radius: 0px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    background-color: aqua;
+
+}
+
+
+#clear:hover{
+    background-color: dimgray;
+}
+
+#clear:active{
+    background-color:dimgray
+}
+
+
+
+#switch{
+    margin-top: -10px;
+    border-radius: 0px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    background-color: aqua;
+
+}
+
+
+#switch:hover{
+    background-color: dimgray;
+}
+
+.bottom{
+    margin-top: 0px;
+    display: flex;
+    justify-content:space-between;
+    height: 30px;
+}
